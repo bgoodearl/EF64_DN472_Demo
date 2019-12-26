@@ -27,3 +27,23 @@ Enable-Migrations
 		Add-Migration Schema1
 		Update-Database -Script -SourceMigration:$InitialDatabase -TargetMigration:Schema1
 ```
+**NOTICE** that in this first migration, the code in the migration file:
+```c#
+        public override void Up()
+        {
+            CreateTable(
+                "dbo.bgm_Rehearsals",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Date = c.DateTime(nullable: false),
+                        Time = c.Time(nullable: false, precision: 7),
+                        Duration = c.Time(precision: 7),
+                        Location = c.String(),
+                        Agenda = c.String(),
+                    })
+                .PrimaryKey(t => t.Id);
+            
+        }
+```
+does NOT include a length for `Location` or `Agenda`.
