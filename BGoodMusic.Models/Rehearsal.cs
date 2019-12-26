@@ -1,14 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BGoodMusic.Models
 {
     public class Rehearsal
     {
-        //*** do not make set protected so fake repository can be used
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Required]
@@ -19,6 +15,7 @@ namespace BGoodMusic.Models
 
         public Nullable<TimeSpan> Duration { get; set; }
 
+        [Required(AllowEmptyStrings = true)]
         [MaxLength(512)]
         public string Location { get; set; }
 
