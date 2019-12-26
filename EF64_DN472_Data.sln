@@ -3,14 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGoodMusic.Models", "BGoodMusic.Models\BGoodMusic.Models.csproj", "{51C93336-9FEA-45B3-9E2C-6797A9C103FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BGoodMusic.Models", "BGoodMusic.Models\BGoodMusic.Models.csproj", "{51C93336-9FEA-45B3-9E2C-6797A9C103FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docs", "_docs", "{E0F6D31F-2689-440E-9BC4-89F402B871C4}"
 	ProjectSection(SolutionItems) = preProject
+		_docs\EF_Resources.md = _docs\EF_Resources.md
 		readme.md = readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGoodMusic.Common", "BGoodMusic.Common\BGoodMusic.Common.csproj", "{3351F92E-AB2E-4EC4-A9B6-49A83411F5D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BGoodMusic.Common", "BGoodMusic.Common\BGoodMusic.Common.csproj", "{3351F92E-AB2E-4EC4-A9B6-49A83411F5D7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{51C93336-9FEA-45B3-9E2C-6797A9C103FB} = {51C93336-9FEA-45B3-9E2C-6797A9C103FB}
 	EndProjectSection
