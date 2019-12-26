@@ -339,3 +339,10 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+#Don't commit any folders starting with _Local
+_[Ll]ocal*
+
+# Markdown Monster
+*.md.saved.bak
+
