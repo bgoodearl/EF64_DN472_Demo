@@ -14,4 +14,4 @@ Be sure to update the connection string as needed before doing more than the fir
 
 ## Resources
 
-[Entity Framework Resources](./docs/EF_Resources.md)
+[Entity Framework Resources](./_docs/EF_Resources.md)
