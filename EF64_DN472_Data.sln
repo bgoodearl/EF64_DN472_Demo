@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BGoodMusic.Models", "BGoodM
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docs", "_docs", "{E0F6D31F-2689-440E-9BC4-89F402B871C4}"
 	ProjectSection(SolutionItems) = preProject
+		_docs\_EF64_DN472_DevNotes.md = _docs\_EF64_DN472_DevNotes.md
 		_docs\EF_Resources.md = _docs\EF_Resources.md
 		readme.md = readme.md
 	EndProjectSection

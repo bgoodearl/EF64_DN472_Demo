@@ -6,6 +6,12 @@ namespace BGoodMusic.EFDAL
     public partial class BGoodMusicDbContext : DbContext
     {
         public BGoodMusicDbContext()
+            : base()
+        {
+        }
+
+        public BGoodMusicDbContext(string connectionString)
+            : base(connectionString)
         {
         }
 

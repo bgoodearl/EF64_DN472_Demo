@@ -1,10 +1,5 @@
 ﻿using BGoodMusic.Models;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BGoodMusic.EFDAL
 {
@@ -15,6 +10,8 @@ namespace BGoodMusic.EFDAL
             modelBuilder.Entity<Rehearsal>()
                 .HasKey(x => x.Id)
                 .ToTable("bgm_Rehearsals");
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

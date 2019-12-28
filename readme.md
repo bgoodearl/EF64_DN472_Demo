@@ -8,3 +8,10 @@ MSBuild will copy App.config from `...\_ConfigSource\BGoodMusic.EFDAL` to `...\B
 
 Be sure to update the connection string as needed before doing more than the first build.
 
+## Dev Notes
+
+[Project Developer Notes](./_docs/_EF64_DN472_DevNotes.md)
+
+## Resources
+
+[Entity Framework Resources](./docs/EF_Resources.md)
